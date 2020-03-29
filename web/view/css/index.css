@@ -1,0 +1,5 @@
+* {font-family:Arial, "Microsoft Yahei"}
+#loading {display:none;position:absolute;width:66px;left:50%;top:70px;margin-left:-33px;}
+#loading img {width:66px;height:66px;border:none;}
+.bottom-alert {text-align:center;display:none;position:fixed;z-index:99999;width:100%;margin-bottom:0;bottom:0;left:0;right:0;}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {background-color: #1e88e5!important;}

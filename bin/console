@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+define('APP_PATH', __DIR__.'/../');
+//加载Class Loader与App
+require __DIR__.'/../vendor/autoload.php';
+$app = require_once __DIR__.'/../src/app/app.php';
+require_once __DIR__.'/../src/app/console.php';
+//配置请求响应
+$response = $app->handle(
+    $request = Application\Request::make()
+);
+//运行App
+$app->run($request, $response);

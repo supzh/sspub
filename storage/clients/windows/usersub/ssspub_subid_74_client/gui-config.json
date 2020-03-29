@@ -1,0 +1,29 @@
+
+{
+  "configs": [
+    {
+      "server": "kexueshangwang.pub",
+      "server_port": 1099,
+      "password": "115961",
+      "method": "rc4-md5",
+      "remarks": "SSPUB autogen",
+      "auth": true
+    }
+  ],
+  "strategy": null,
+  "index": 0,
+  "global": false,
+  "enabled": true,
+  "shareOverLan": false,
+  "isDefault": false,
+  "localPort": 1080,
+  "pacUrl": null,
+  "useOnlinePac": false,
+  "availabilityStatistics": false,
+  "autoCheckUpdate": true,
+  "isVerboseLogging": false,
+  "logViewer": null,
+  "useProxy": false,
+  "proxyServer": null,
+  "proxyPort": 0
+}
